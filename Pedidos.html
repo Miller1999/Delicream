@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="./Cliente.css">
+</head>
+<body class="fondo">
+    <section class="logoP">
+        <div>
+            <a href="./indexCliente.html" class="link"><img src="./Logo.png" alt="Logo de pastelero" width="200vw" height="200vh"></a>
+        </div>
+        <div style="width:30vw"></div>
+        <div class="link">
+            <p class="link">Pedidos</p>
+        </div>
+    </section>
+    <section class="centrado">
+        <div class="box">
+            <label for="Nombre">Nombre</label>
+            <br>
+            <input type="text" id="Nombre" name="Nombre">
+            <br><br>
+            <label for="tel1">Telefono</label><br>
+            <input type="number" id="tel1" name="tel1" maxlength="10"><br><br>
+            <label for="correo1">Correo Electronico</label><br>
+            <input type="email" id="correo1" name="correo1"><br><br>
+            <div class="box1">
+                <div style="text-align: left;">
+                    <p style="text-align: center;">Sabores ($10)</p>
+                    <input type="radio" id="chocolate" name="sabores" value="chocolate">
+                    <label for="chocolate">Chocolate</label><br><br>
+                    <input type="radio" id="mora" name="sabores" value="mora">
+                    <label for="mora">Mora</label><br><br>
+                    <input type="radio" id="Fresa" name="sabores" value="Fresa">
+                    <label for="Fresa">Fresa</label><br><br>
+                    <input type="radio" id="frambuesa" name="sabores" value="Frambuesa">
+                    <label for="frambuesa">Frambuesa</label><br><br>
+                    <input type="radio" id="vainilla" name="sabores" value="vainilla">
+                    <label for="vainilla">Vainilla</label><br><br>
+                </div>
+                <div style="text-align: left;">
+                    <p style="text-align: center;">Adornos ($2-5)</p>
+                    <input type="checkbox" id="toping1" name="toping1" value="Galleta de Chocolate">
+                    <label for="toping1">Galleta de Chocolate</label><br><br>
+                    <input type="checkbox" id="toping2" name="toping2" value="Chcolate Blanco">
+                    <label for="toping2">Chocolate Blanco</label><br><br>
+                    <input type="checkbox" id="toping3" name="toping3" value="Fresas">
+                    <label for="toping3">Fresas</label><br><br>
+                    <input type="checkbox" id="toping4" name="toping4" value="Arequipe">
+                    <label for="toping4">Arequipe</label><br><br>
+                    <input type="checkbox" id="toping5" name="toping5" value="Kiwi">
+                    <label for="toping5">Kiwi</label><br><br>
+                </div>
+                
+            </div>
+            <label for="descripcion">Descripcion</label>
+            <br>
+            <input type="text" id="descripcion" name="descripcion" style="width: 45vw; height:15vh;">
+            <div style="height:2vh;"></div>
+            <div>
+                <a href="./indexCliente.html" class="link"><input type="submit"></a><br>
+            </div>
+        </div>
+        
+        
+    </section>
+</body>
+</html>
