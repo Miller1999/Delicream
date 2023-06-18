@@ -6,7 +6,7 @@ No podras dejar de pedirlos
 ## Tabla de Contenidos
 - [Delicream](#title)
   - [Tabla de Contenidos](#tabla-de-contenidos)
-  - [Demostraciones](#demostraciones-y-repositorios)
+  - [Demostraciones](#demostraciones)
   - [Tecnologias usadas](#tecnologias-usadas)
   - [Recursos Utiles](#recursos-utiles)
   - [Licencia](#licencia)
@@ -25,6 +25,7 @@ Las diferentes pantallas de la pagina son:
 ![Image text](https://github.com/Miller1999/Delicream/blob/7c4cbd4ea89ae443ad9ab0e1e6f62b8b22f33d86/assets/img/demostracion/pedidos.png)
 ### Administrador
 ![Image text](https://github.com/Miller1999/Delicream/blob/7c4cbd4ea89ae443ad9ab0e1e6f62b8b22f33d86/assets/img/demostracion/admin.png)
+Tambien puedes ver el funcionamiento [aqui](https://www.youtube.com/watch?v=t2gAk6AiM-Y)
 ### Tecnologias usadas
 Cada uno de los proyectos ha sido desarrollado completamente en 
 - HTML
